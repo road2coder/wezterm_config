@@ -13,8 +13,9 @@ if wezterm.target_triple == 'x86_64-pc-windows-msvc' then
     args = { 'powershell.exe', '-NoLogo' },
   })
   default_prog = { 'D:\\Environment\\Git\\bin\\bash.exe', '-l' }
-end
-return {
+  return {
   default_prog = default_prog,
   launch_menu = launch_menu,
 }
+end
+return {}
