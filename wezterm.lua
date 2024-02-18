@@ -10,6 +10,7 @@ end
 
 local ui = require('ui')
 local bash = require('bash')
-local config = merge(ui, bash)
+local keys = require('keys')
+local config = merge(ui, bash, keys)
 
 return config

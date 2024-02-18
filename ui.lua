@@ -25,6 +25,9 @@ return {
   adjust_window_size_when_changing_font_size = true,
   window_decorations = decoration,
   window_background_opacity = 0.9,
+  text_background_opacity = 0.5,
+  -- 解决使用 WebGpu 时，透明度不生效的问题
+  front_end = "OpenGL",
   window_padding = {
     left = 10,
     right = 10,
