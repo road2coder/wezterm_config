@@ -36,4 +36,5 @@ return {
   },
   initial_rows = 36,
   initial_cols = 108,
+  tab_max_width = 32,
 }
