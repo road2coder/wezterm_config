@@ -21,7 +21,7 @@ return {
     brightness = 0.8,
   },
   window_background_opacity = 0.9,
-  text_background_opacity = 0.8,
+  text_background_opacity = 0.95,
   status_update_interval = 1000,
   font = wezterm.font_with_fallback({
     {
